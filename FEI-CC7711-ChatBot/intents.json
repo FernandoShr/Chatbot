@@ -1,0 +1,71 @@
+{"intents":[
+  
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi"],
+    "responses": ["Oi","Olá ^.^"]
+  },
+
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks", "adeus"],
+    "responses": ["Até breve","Falou", "Tchau ^.^", "Adeus, tenha um ótima dia"]
+  },
+
+  { "tag": "bem_estar",
+    "patterns": ["Tudo bem?", "Como vai?", "Como você está?", "Como está?"],
+    "responses": ["Tudo bem e você?", "Vou bem, e você como está?", "Passo bem e você?"]
+  },
+
+  { "tag": "bem_estar_resposta_positiva",
+    "patterns": ["Estou bem", "Estou bem também","Bem também", "Passo bem também", "Tudo bem também"],
+    "responses": ["Que bom! ^.^"]
+  },
+
+  { "tag": "bem_estar_resposta_negativo",
+    "patterns": ["Não estou bem", "Nada bem", "Mal", "To zoado", "Estou doente"],
+    "responses": ["Putz que pena..."]    
+  },
+
+  {
+    "tag": "o_que_PIPE",
+    "patterns": ["o que é PIPE?"],
+    "responses": ["O Programa Pesquisa Inovativa em Pequenas Empresas da FAPESP destina-se a apoiar a execução\n de pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo"]
+  },
+
+  {
+    "tag": "PIPE_objetivo",
+    "patterns": ["qual o objetivo de um PIPE?"],
+    "responses": ["Seus objetivos são apoiar a pesquisa em ciência e tecnologia como instrumento para promover\n a inovação tecnológica e o desenvolvimento empresarial, aumentar a competitividade\n das pequenas empresas, possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação\n tecnológica e contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas"]
+  },
+
+  {
+    "tag": "PIPE_onde_deve_ser_feito",
+    "patterns": ["Onde deve ser feito o PIPE?"],
+    "responses": ["Na empresa, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas\n sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa."]
+  },
+
+  {
+    "tag": "Preciso_de_empresa_para_solicitar_PIPE",
+    "patterns": ["Preciso já ter uma empresa para soliciar o PIPE?"],
+    "responses": ["Não. A FAPESP analisa propostas de empresas ainda não constituídas. Empresas startup ainda não constituídas legalmente são incentivadas a submeter. Nos casos em que a proposta for recomendada,\n o proponente deverá então abrir formalmente a empresa antes da concessão da proposta."]
+  },
+
+  {
+    "tag": "Quem_avalia_projeto",
+    "patterns": ["Quem avalia o projeto?"],
+    "responses": ["A FAPESP seleciona especialistas das áreas de conhecimento envolvidas no projeto para avaliá-lo.\n Projetos PIPE Fase 1 são avaliados por pelo menos dois assessores e projetos Fase 2 são avaliados por pelo menos 3 assessores."]
+  },
+
+  {
+    "tag": "Quantidade_de_etapas_Programa",
+    "patterns": ["Há diferentes etapas no programa?"],
+    "responses": ["Sim, o programa é dividido por Fase 1, Fase 2, PIPE Invest, Fase 3"]
+  }, 
+
+  {
+    "tag": "Descreva_etapas_Programa",
+    "patterns": ["Descreva as etapas do programa"],
+    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares);\nb) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares);\nc) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e\nd) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  } 
+
+]
+}
